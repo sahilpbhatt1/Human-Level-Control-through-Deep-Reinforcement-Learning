@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository contains a **production-quality implementation** of Deep Q-Network (DQN), reproducing key results from DeepMind's groundbreaking paper ["Human-level control through deep reinforcement learning"](https://www.nature.com/articles/nature14236) (Mnih et al., 2015). The implementation demonstrates mastery of **reinforcement learning**, **sequential decision-making**, and **deep learning** techniques using PyTorch.
+This repository contains a **production-quality implementation** of Deep Q-Network (DQN), reproducing key results from DeepMind's groundbreaking paper ["Human-level control through deep reinforcement learning"](https://www.nature.com/articles/nature14236) (Mnih et al., 2015). The implementation relies on **reinforcement learning**, **sequential decision-making**, and **deep learning** techniques using PyTorch.
 
 ### Key Features
 
@@ -179,17 +179,7 @@ Implements **linear epsilon decay**:
 - **Buffer Size**: 100,000 transitions
 - **Sampling**: Uniform random sampling for training batches
 - **Memory Efficiency**: Stores transitions as PyTorch tensors on CPU
-
-## Skills Demonstrated
-
-This project showcases proficiency in:
-
-- **Reinforcement Learning**: Implementation of value-based RL algorithms (DQN)
-- **Sequential Decision Making**: Understanding of Markov Decision Processes and temporal credit assignment
-- **Deep Learning with PyTorch**: Neural network design, training, and optimization
-- **Software Engineering**: Modular, well-documented codebase following best practices
-- **Experiment Tracking**: TensorBoard integration for monitoring and reproducibility
-- **Scientific Computing**: NumPy, efficient data structures, and numerical optimization
+ 
 
 ## References
 
