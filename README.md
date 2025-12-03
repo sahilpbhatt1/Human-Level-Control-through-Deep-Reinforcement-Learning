@@ -235,9 +235,4 @@ To retrieve your running program on VM, simply type
 screen -r
 ```
 which will recover the detached window.   
-
-
-
-**Credits**
-Assignment code written by Guillaume Genthial and Shuhui Qu.
-Assignment code updated by Jian Vora and Max Sobol Mark
+ 
