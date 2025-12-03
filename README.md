@@ -37,7 +37,7 @@ Deep Q-Learning combines Q-learning with deep neural networks to learn optimal p
 
 The optimal Q-function satisfies the Bellman equation:
 
-$$Q^*(s, a) = \mathbb{E}\left[r + \gamma \max_{a'} Q^*(s', a') \mid s, a\right]$$
+$$Q^{\ast}(s, a) = \mathbb{E}\left[r + \gamma \max_{a'} Q^{\ast}(s', a') \mid s, a\right]$$
 
 #### DQN Loss Function
 
