@@ -1,0 +1,18 @@
+# Deep Q-Network Dependencies
+# ===========================
+
+# Core ML Framework
+torch>=1.13.0
+numpy>=1.24.0
+
+# Training Visualization
+tensorboard>=2.11.0
+matplotlib>=3.7.0
+
+# Environment
+gym>=0.26.0
+pyglet>=2.0.0
+
+# Note: MinAtar must be installed separately:
+#   git clone https://github.com/kenjyoung/MinAtar.git
+#   cd MinAtar && pip install .
